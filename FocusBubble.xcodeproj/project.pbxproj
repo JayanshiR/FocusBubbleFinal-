@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63469AE92DDAF14E00EE660D /* Pomodorotimersound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63469AE62DDAF14E00EE660D /* Pomodorotimersound.mp3 */; };
+		63469AEA2DDAF14E00EE660D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63469AE12DDAF14E00EE660D /* Assets.xcassets */; };
+		63469AEB2DDAF14E00EE660D /* CircleTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AD92DDAF14E00EE660D /* CircleTimer.swift */; };
+		63469AEC2DDAF14E00EE660D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AE22DDAF14E00EE660D /* ContentView.swift */; };
+		63469AED2DDAF14E00EE660D /* BreathingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AD22DDAF14E00EE660D /* BreathingView.swift */; };
+		63469AEE2DDAF14E00EE660D /* FocusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469ADA2DDAF14E00EE660D /* FocusView.swift */; };
+		63469AEF2DDAF14E00EE660D /* CalmPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AD32DDAF14E00EE660D /* CalmPage.swift */; };
+		63469AF02DDAF14E00EE660D /* NotificationsDisabled.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469ADC2DDAF14E00EE660D /* NotificationsDisabled.swift */; };
+		63469AF12DDAF14E00EE660D /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AE52DDAF14E00EE660D /* HomePage.swift */; };
+		63469AF22DDAF14E00EE660D /* MeditationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AD42DDAF14E00EE660D /* MeditationView.swift */; };
+		63469AF32DDAF14E00EE660D /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AD82DDAF14E00EE660D /* CircleButton.swift */; };
+		63469AF42DDAF14E00EE660D /* PomodoroNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469ADD2DDAF14E00EE660D /* PomodoroNotification.swift */; };
+		63469AF52DDAF14E00EE660D /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AE72DDAF14E00EE660D /* SoundManager.swift */; };
+		63469AF82DDAF14E00EE660D /* YogaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AD62DDAF14E00EE660D /* YogaView.swift */; };
+		63469AF92DDAF14E00EE660D /* PomodoroTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469ADE2DDAF14E00EE660D /* PomodoroTimer.swift */; };
+		63469AFA2DDAF14E00EE660D /* PomodoroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469ADF2DDAF14E00EE660D /* PomodoroView.swift */; };
+		63469AFB2DDAF14E00EE660D /* NewGentleSoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63469AD52DDAF14E00EE660D /* NewGentleSoundView.swift */; };
+		63B143DF2DDD9CF600D726C3 /* dreamy-bells-47721.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63B143D62DDD9CF600D726C3 /* dreamy-bells-47721.mp3 */; };
+		63B143E02DDD9CF600D726C3 /* orchestral-win-331233.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63B143DA2DDD9CF600D726C3 /* orchestral-win-331233.mp3 */; };
+		63B143E12DDD9CF600D726C3 /* lofi-alarm-clock-243766.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63B143D82DDD9CF600D726C3 /* lofi-alarm-clock-243766.mp3 */; };
+		63B143E22DDD9CF600D726C3 /* level-win-6416.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63B143D72DDD9CF600D726C3 /* level-win-6416.mp3 */; };
+		63B143E32DDD9CF600D726C3 /* sound-effect-twinklesparkle-115095.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63B143DD2DDD9CF600D726C3 /* sound-effect-twinklesparkle-115095.mp3 */; };
+		63B143E42DDD9CF600D726C3 /* medieval-fanfare-6826.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63B143D92DDD9CF600D726C3 /* medieval-fanfare-6826.mp3 */; };
+		63B143E52DDD9CF600D726C3 /* piglevelwin2mp3-14800.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63B143DB2DDD9CF600D726C3 /* piglevelwin2mp3-14800.mp3 */; };
+		63B143E62DDD9CF600D726C3 /* shine-7-268909.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 63B143DC2DDD9CF600D726C3 /* shine-7-268909.mp3 */; };
+		63B143F42DDDA6AB00D726C3 /* CustomCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B143F12DDDA6AB00D726C3 /* CustomCalendarView.swift */; };
+		63B143F52DDDA6AB00D726C3 /* AddReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B143EF2DDDA6AB00D726C3 /* AddReminder.swift */; };
+		63B143F62DDDA6AB00D726C3 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B143F02DDDA6AB00D726C3 /* CalendarManager.swift */; };
+		63B143F82DDDAF7700D726C3 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B143F72DDDAF7700D726C3 /* EventModel.swift */; };
+		63B143FC2DDDB70E00D726C3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B143FB2DDDB70E00D726C3 /* SettingsView.swift */; };
+		63B144002DDDB75200D726C3 /* settingDeatailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B143FF2DDDB75200D726C3 /* settingDeatailView.swift */; };
+		63B144022DDDB96600D726C3 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B144012DDDB96600D726C3 /* HelpView.swift */; };
+		63B144042DDDB97D00D726C3 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B144032DDDB97D00D726C3 /* PrivacyView.swift */; };
+		63B144082DDDD37B00D726C3 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B144072DDDD37B00D726C3 /* ThemeManager.swift */; };
+		63B1440C2DDDDDF300D726C3 /* UIStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B1440B2DDDDDF300D726C3 /* UIStyles.swift */; };
+		63B1440E2DDDE0AE00D726C3 /* View+Background.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B1440D2DDDE0AE00D726C3 /* View+Background.swift .swift */; };
+		63B144122DDDE35000D726C3 /* box breathing final .mov in Resources */ = {isa = PBXBuildFile; fileRef = 63B1440F2DDDE35000D726C3 /* box breathing final .mov */; };
+		63B144132DDDE35000D726C3 /* Breathing .mov in Resources */ = {isa = PBXBuildFile; fileRef = 63B144102DDDE35000D726C3 /* Breathing .mov */; };
+		63B36D3C2DDDEB6D00A7CDCA /* CalmVideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B36D3B2DDDEB6D00A7CDCA /* CalmVideoPlayer.swift */; };
+		63B36D442DDDEEE400A7CDCA /* 20250425_1842_Diaphragmatic Breathing Technique_simple_compose_01jsq0kmk8fxg940tfrzh15znn (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63B36D422DDDEEE400A7CDCA /* 20250425_1842_Diaphragmatic Breathing Technique_simple_compose_01jsq0kmk8fxg940tfrzh15znn (1).png */; };
+		63B36D452DDDEEE400A7CDCA /* 20250425_1637_Vrikshasana Steps Sequence_simple_compose_01jspsf5rkefaar9855gedm8jt (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63B36D3D2DDDEEE400A7CDCA /* 20250425_1637_Vrikshasana Steps Sequence_simple_compose_01jspsf5rkefaar9855gedm8jt (1).png */; };
+		63B36D462DDDEEE400A7CDCA /* 20250425_1711_Nadi Shodhana Breathing_simple_compose_01jspvdgaxejqsbwewekxdvjdw (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63B36D3E2DDDEEE400A7CDCA /* 20250425_1711_Nadi Shodhana Breathing_simple_compose_01jspvdgaxejqsbwewekxdvjdw (1).png */; };
+		63B36D472DDDEEE400A7CDCA /* 20250425_1827_Viparita Karani Steps_simple_compose_01jspzrjvxfm59b1q0v98kxt42 (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63B36D402DDDEEE400A7CDCA /* 20250425_1827_Viparita Karani Steps_simple_compose_01jspzrjvxfm59b1q0v98kxt42 (1).png */; };
+		63B36D482DDDEEE400A7CDCA /* 20250425_1834_Paschimottanasana Steps_simple_compose_01jsq05a0vepcbz3tnptyss4qg (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63B36D412DDDEEE400A7CDCA /* 20250425_1834_Paschimottanasana Steps_simple_compose_01jsq05a0vepcbz3tnptyss4qg (1).png */; };
+		63B36D492DDDEEE400A7CDCA /* 20250425_1815_Balasana Yoga Steps_simple_compose_01jspz3myped38d43vm8vp8m2x (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 63B36D3F2DDDEEE400A7CDCA /* 20250425_1815_Balasana Yoga Steps_simple_compose_01jspz3myped38d43vm8vp8m2x (1).png */; };
+		63B36D4B2DDDF00700A7CDCA /* white noise .mov in Resources */ = {isa = PBXBuildFile; fileRef = 63B36D4A2DDDF00700A7CDCA /* white noise .mov */; };
+		63D340592DDD077900A598B4 /* Focus_BubbleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D340582DDD077900A598B4 /* Focus_BubbleApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		63D340C32DDD282B00A598B4 /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		63469A362DDAEC8500EE660D /* FocusBubble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusBubble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63469AD22DDAF14E00EE660D /* BreathingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingView.swift; sourceTree = "<group>"; };
+		63469AD32DDAF14E00EE660D /* CalmPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmPage.swift; sourceTree = "<group>"; };
+		63469AD42DDAF14E00EE660D /* MeditationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditationView.swift; sourceTree = "<group>"; };
+		63469AD52DDAF14E00EE660D /* NewGentleSoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewGentleSoundView.swift; sourceTree = "<group>"; };
+		63469AD62DDAF14E00EE660D /* YogaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YogaView.swift; sourceTree = "<group>"; };
+		63469AD82DDAF14E00EE660D /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
+		63469AD92DDAF14E00EE660D /* CircleTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimer.swift; sourceTree = "<group>"; };
+		63469ADA2DDAF14E00EE660D /* FocusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusView.swift; sourceTree = "<group>"; };
+		63469ADC2DDAF14E00EE660D /* NotificationsDisabled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsDisabled.swift; sourceTree = "<group>"; };
+		63469ADD2DDAF14E00EE660D /* PomodoroNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroNotification.swift; sourceTree = "<group>"; };
+		63469ADE2DDAF14E00EE660D /* PomodoroTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroTimer.swift; sourceTree = "<group>"; };
+		63469ADF2DDAF14E00EE660D /* PomodoroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroView.swift; sourceTree = "<group>"; };
+		63469AE12DDAF14E00EE660D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63469AE22DDAF14E00EE660D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		63469AE42DDAF14E00EE660D /* Focus_BubbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_BubbleApp.swift; sourceTree = "<group>"; };
+		63469AE52DDAF14E00EE660D /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		63469AE62DDAF14E00EE660D /* Pomodorotimersound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pomodorotimersound.mp3; sourceTree = "<group>"; };
+		63469AE72DDAF14E00EE660D /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		63B143D62DDD9CF600D726C3 /* dreamy-bells-47721.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "dreamy-bells-47721.mp3"; sourceTree = "<group>"; };
+		63B143D72DDD9CF600D726C3 /* level-win-6416.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "level-win-6416.mp3"; sourceTree = "<group>"; };
+		63B143D82DDD9CF600D726C3 /* lofi-alarm-clock-243766.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lofi-alarm-clock-243766.mp3"; sourceTree = "<group>"; };
+		63B143D92DDD9CF600D726C3 /* medieval-fanfare-6826.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "medieval-fanfare-6826.mp3"; sourceTree = "<group>"; };
+		63B143DA2DDD9CF600D726C3 /* orchestral-win-331233.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "orchestral-win-331233.mp3"; sourceTree = "<group>"; };
+		63B143DB2DDD9CF600D726C3 /* piglevelwin2mp3-14800.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piglevelwin2mp3-14800.mp3"; sourceTree = "<group>"; };
+		63B143DC2DDD9CF600D726C3 /* shine-7-268909.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "shine-7-268909.mp3"; sourceTree = "<group>"; };
+		63B143DD2DDD9CF600D726C3 /* sound-effect-twinklesparkle-115095.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-effect-twinklesparkle-115095.mp3"; sourceTree = "<group>"; };
+		63B143EF2DDDA6AB00D726C3 /* AddReminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminder.swift; sourceTree = "<group>"; };
+		63B143F02DDDA6AB00D726C3 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		63B143F12DDDA6AB00D726C3 /* CustomCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarView.swift; sourceTree = "<group>"; };
+		63B143F22DDDA6AB00D726C3 /* FocusBubble-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FocusBubble-Bridging-Header.h"; sourceTree = "<group>"; };
+		63B143F72DDDAF7700D726C3 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		63B143FB2DDDB70E00D726C3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		63B143FF2DDDB75200D726C3 /* settingDeatailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingDeatailView.swift; sourceTree = "<group>"; };
+		63B144012DDDB96600D726C3 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		63B144032DDDB97D00D726C3 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		63B144072DDDD37B00D726C3 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		63B1440B2DDDDDF300D726C3 /* UIStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStyles.swift; sourceTree = "<group>"; };
+		63B1440D2DDDE0AE00D726C3 /* View+Background.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Background.swift .swift"; sourceTree = "<group>"; };
+		63B1440F2DDDE35000D726C3 /* box breathing final .mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "box breathing final .mov"; sourceTree = "<group>"; };
+		63B144102DDDE35000D726C3 /* Breathing .mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Breathing .mov"; sourceTree = "<group>"; };
+		63B36D3B2DDDEB6D00A7CDCA /* CalmVideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalmVideoPlayer.swift; sourceTree = "<group>"; };
+		63B36D3D2DDDEEE400A7CDCA /* 20250425_1637_Vrikshasana Steps Sequence_simple_compose_01jspsf5rkefaar9855gedm8jt (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20250425_1637_Vrikshasana Steps Sequence_simple_compose_01jspsf5rkefaar9855gedm8jt (1).png"; sourceTree = "<group>"; };
+		63B36D3E2DDDEEE400A7CDCA /* 20250425_1711_Nadi Shodhana Breathing_simple_compose_01jspvdgaxejqsbwewekxdvjdw (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20250425_1711_Nadi Shodhana Breathing_simple_compose_01jspvdgaxejqsbwewekxdvjdw (1).png"; sourceTree = "<group>"; };
+		63B36D3F2DDDEEE400A7CDCA /* 20250425_1815_Balasana Yoga Steps_simple_compose_01jspz3myped38d43vm8vp8m2x (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20250425_1815_Balasana Yoga Steps_simple_compose_01jspz3myped38d43vm8vp8m2x (1).png"; sourceTree = "<group>"; };
+		63B36D402DDDEEE400A7CDCA /* 20250425_1827_Viparita Karani Steps_simple_compose_01jspzrjvxfm59b1q0v98kxt42 (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20250425_1827_Viparita Karani Steps_simple_compose_01jspzrjvxfm59b1q0v98kxt42 (1).png"; sourceTree = "<group>"; };
+		63B36D412DDDEEE400A7CDCA /* 20250425_1834_Paschimottanasana Steps_simple_compose_01jsq05a0vepcbz3tnptyss4qg (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20250425_1834_Paschimottanasana Steps_simple_compose_01jsq05a0vepcbz3tnptyss4qg (1).png"; sourceTree = "<group>"; };
+		63B36D422DDDEEE400A7CDCA /* 20250425_1842_Diaphragmatic Breathing Technique_simple_compose_01jsq0kmk8fxg940tfrzh15znn (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "20250425_1842_Diaphragmatic Breathing Technique_simple_compose_01jsq0kmk8fxg940tfrzh15znn (1).png"; sourceTree = "<group>"; };
+		63B36D4A2DDDF00700A7CDCA /* white noise .mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "white noise .mov"; sourceTree = "<group>"; };
+		63D340582DDD077900A598B4 /* Focus_BubbleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Focus_BubbleApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63469A332DDAEC8500EE660D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63469A2D2DDAEC8500EE660D = {
+			isa = PBXGroup;
+			children = (
+				63469AE82DDAF14E00EE660D /* FocusBubble */,
+				63469A372DDAEC8500EE660D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63469A372DDAEC8500EE660D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63469A362DDAEC8500EE660D /* FocusBubble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63469AD72DDAF14E00EE660D /* Calm  */ = {
+			isa = PBXGroup;
+			children = (
+				63469AD22DDAF14E00EE660D /* BreathingView.swift */,
+				63469AD32DDAF14E00EE660D /* CalmPage.swift */,
+				63469AD42DDAF14E00EE660D /* MeditationView.swift */,
+				63469AD52DDAF14E00EE660D /* NewGentleSoundView.swift */,
+				63469AD62DDAF14E00EE660D /* YogaView.swift */,
+			);
+			path = "Calm ";
+			sourceTree = "<group>";
+		};
+		63469AE02DDAF14E00EE660D /* Focus  */ = {
+			isa = PBXGroup;
+			children = (
+				63469AD82DDAF14E00EE660D /* CircleButton.swift */,
+				63469AD92DDAF14E00EE660D /* CircleTimer.swift */,
+				63469ADA2DDAF14E00EE660D /* FocusView.swift */,
+				63469ADC2DDAF14E00EE660D /* NotificationsDisabled.swift */,
+				63469ADD2DDAF14E00EE660D /* PomodoroNotification.swift */,
+				63469ADE2DDAF14E00EE660D /* PomodoroTimer.swift */,
+				63469ADF2DDAF14E00EE660D /* PomodoroView.swift */,
+			);
+			path = "Focus ";
+			sourceTree = "<group>";
+		};
+		63469AE82DDAF14E00EE660D /* FocusBubble */ = {
+			isa = PBXGroup;
+			children = (
+				63469AD72DDAF14E00EE660D /* Calm  */,
+				63469AE02DDAF14E00EE660D /* Focus  */,
+				63469AE12DDAF14E00EE660D /* Assets.xcassets */,
+				63469AE22DDAF14E00EE660D /* ContentView.swift */,
+				63469AE42DDAF14E00EE660D /* Focus_BubbleApp.swift */,
+				63469AE52DDAF14E00EE660D /* HomePage.swift */,
+				63469AE62DDAF14E00EE660D /* Pomodorotimersound.mp3 */,
+				63469AE72DDAF14E00EE660D /* SoundManager.swift */,
+				63D340582DDD077900A598B4 /* Focus_BubbleApp.swift */,
+				63B143DE2DDD9CF600D726C3 /* alarm sounds pomodoro  */,
+				63B143F32DDDA6AB00D726C3 /* Calendar 3 */,
+				63B143FB2DDDB70E00D726C3 /* SettingsView.swift */,
+				63B143FF2DDDB75200D726C3 /* settingDeatailView.swift */,
+				63B144012DDDB96600D726C3 /* HelpView.swift */,
+				63B144032DDDB97D00D726C3 /* PrivacyView.swift */,
+				63B144072DDDD37B00D726C3 /* ThemeManager.swift */,
+				63B1440B2DDDDDF300D726C3 /* UIStyles.swift */,
+				63B1440D2DDDE0AE00D726C3 /* View+Background.swift .swift */,
+				63B144112DDDE35000D726C3 /* Breathing  */,
+				63B36D3B2DDDEB6D00A7CDCA /* CalmVideoPlayer.swift */,
+				63B36D432DDDEEE400A7CDCA /* Yoga Poses  */,
+				63B36D4A2DDDF00700A7CDCA /* white noise .mov */,
+			);
+			path = FocusBubble;
+			sourceTree = "<group>";
+		};
+		63B143DE2DDD9CF600D726C3 /* alarm sounds pomodoro  */ = {
+			isa = PBXGroup;
+			children = (
+				63B143D62DDD9CF600D726C3 /* dreamy-bells-47721.mp3 */,
+				63B143D72DDD9CF600D726C3 /* level-win-6416.mp3 */,
+				63B143D82DDD9CF600D726C3 /* lofi-alarm-clock-243766.mp3 */,
+				63B143D92DDD9CF600D726C3 /* medieval-fanfare-6826.mp3 */,
+				63B143DA2DDD9CF600D726C3 /* orchestral-win-331233.mp3 */,
+				63B143DB2DDD9CF600D726C3 /* piglevelwin2mp3-14800.mp3 */,
+				63B143DC2DDD9CF600D726C3 /* shine-7-268909.mp3 */,
+				63B143DD2DDD9CF600D726C3 /* sound-effect-twinklesparkle-115095.mp3 */,
+			);
+			path = "alarm sounds pomodoro ";
+			sourceTree = "<group>";
+		};
+		63B143F32DDDA6AB00D726C3 /* Calendar 3 */ = {
+			isa = PBXGroup;
+			children = (
+				63B143EF2DDDA6AB00D726C3 /* AddReminder.swift */,
+				63B143F02DDDA6AB00D726C3 /* CalendarManager.swift */,
+				63B143F12DDDA6AB00D726C3 /* CustomCalendarView.swift */,
+				63B143F22DDDA6AB00D726C3 /* FocusBubble-Bridging-Header.h */,
+				63B143F72DDDAF7700D726C3 /* EventModel.swift */,
+			);
+			path = "Calendar 3";
+			sourceTree = "<group>";
+		};
+		63B144112DDDE35000D726C3 /* Breathing  */ = {
+			isa = PBXGroup;
+			children = (
+				63B1440F2DDDE35000D726C3 /* box breathing final .mov */,
+				63B144102DDDE35000D726C3 /* Breathing .mov */,
+			);
+			path = "Breathing ";
+			sourceTree = "<group>";
+		};
+		63B36D432DDDEEE400A7CDCA /* Yoga Poses  */ = {
+			isa = PBXGroup;
+			children = (
+				63B36D3D2DDDEEE400A7CDCA /* 20250425_1637_Vrikshasana Steps Sequence_simple_compose_01jspsf5rkefaar9855gedm8jt (1).png */,
+				63B36D3E2DDDEEE400A7CDCA /* 20250425_1711_Nadi Shodhana Breathing_simple_compose_01jspvdgaxejqsbwewekxdvjdw (1).png */,
+				63B36D3F2DDDEEE400A7CDCA /* 20250425_1815_Balasana Yoga Steps_simple_compose_01jspz3myped38d43vm8vp8m2x (1).png */,
+				63B36D402DDDEEE400A7CDCA /* 20250425_1827_Viparita Karani Steps_simple_compose_01jspzrjvxfm59b1q0v98kxt42 (1).png */,
+				63B36D412DDDEEE400A7CDCA /* 20250425_1834_Paschimottanasana Steps_simple_compose_01jsq05a0vepcbz3tnptyss4qg (1).png */,
+				63B36D422DDDEEE400A7CDCA /* 20250425_1842_Diaphragmatic Breathing Technique_simple_compose_01jsq0kmk8fxg940tfrzh15znn (1).png */,
+			);
+			path = "Yoga Poses ";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63469A352DDAEC8500EE660D /* FocusBubble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63469A422DDAEC8700EE660D /* Build configuration list for PBXNativeTarget "FocusBubble" */;
+			buildPhases = (
+				63469A332DDAEC8500EE660D /* Frameworks */,
+				63469A342DDAEC8500EE660D /* Resources */,
+				63469A322DDAEC8500EE660D /* Sources */,
+				63D340C32DDD282B00A598B4 /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusBubble;
+			productName = FocusBubbleNew;
+			productReference = 63469A362DDAEC8500EE660D /* FocusBubble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63469A2E2DDAEC8500EE660D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					63469A352DDAEC8500EE660D = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 63469A312DDAEC8500EE660D /* Build configuration list for PBXProject "FocusBubble" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63469A2D2DDAEC8500EE660D;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 63469A372DDAEC8500EE660D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63469A352DDAEC8500EE660D /* FocusBubble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63469A342DDAEC8500EE660D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63469AE92DDAF14E00EE660D /* Pomodorotimersound.mp3 in Resources */,
+				63B143DF2DDD9CF600D726C3 /* dreamy-bells-47721.mp3 in Resources */,
+				63B144122DDDE35000D726C3 /* box breathing final .mov in Resources */,
+				63B144132DDDE35000D726C3 /* Breathing .mov in Resources */,
+				63B143E02DDD9CF600D726C3 /* orchestral-win-331233.mp3 in Resources */,
+				63B143E12DDD9CF600D726C3 /* lofi-alarm-clock-243766.mp3 in Resources */,
+				63B36D4B2DDDF00700A7CDCA /* white noise .mov in Resources */,
+				63B143E22DDD9CF600D726C3 /* level-win-6416.mp3 in Resources */,
+				63B36D442DDDEEE400A7CDCA /* 20250425_1842_Diaphragmatic Breathing Technique_simple_compose_01jsq0kmk8fxg940tfrzh15znn (1).png in Resources */,
+				63B36D452DDDEEE400A7CDCA /* 20250425_1637_Vrikshasana Steps Sequence_simple_compose_01jspsf5rkefaar9855gedm8jt (1).png in Resources */,
+				63B36D462DDDEEE400A7CDCA /* 20250425_1711_Nadi Shodhana Breathing_simple_compose_01jspvdgaxejqsbwewekxdvjdw (1).png in Resources */,
+				63B36D472DDDEEE400A7CDCA /* 20250425_1827_Viparita Karani Steps_simple_compose_01jspzrjvxfm59b1q0v98kxt42 (1).png in Resources */,
+				63B36D482DDDEEE400A7CDCA /* 20250425_1834_Paschimottanasana Steps_simple_compose_01jsq05a0vepcbz3tnptyss4qg (1).png in Resources */,
+				63B36D492DDDEEE400A7CDCA /* 20250425_1815_Balasana Yoga Steps_simple_compose_01jspz3myped38d43vm8vp8m2x (1).png in Resources */,
+				63B143E32DDD9CF600D726C3 /* sound-effect-twinklesparkle-115095.mp3 in Resources */,
+				63B143E42DDD9CF600D726C3 /* medieval-fanfare-6826.mp3 in Resources */,
+				63B143E52DDD9CF600D726C3 /* piglevelwin2mp3-14800.mp3 in Resources */,
+				63B143E62DDD9CF600D726C3 /* shine-7-268909.mp3 in Resources */,
+				63469AEA2DDAF14E00EE660D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63469A322DDAEC8500EE660D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63B143FC2DDDB70E00D726C3 /* SettingsView.swift in Sources */,
+				63469AEB2DDAF14E00EE660D /* CircleTimer.swift in Sources */,
+				63469AEC2DDAF14E00EE660D /* ContentView.swift in Sources */,
+				63469AED2DDAF14E00EE660D /* BreathingView.swift in Sources */,
+				63469AEE2DDAF14E00EE660D /* FocusView.swift in Sources */,
+				63B144042DDDB97D00D726C3 /* PrivacyView.swift in Sources */,
+				63469AEF2DDAF14E00EE660D /* CalmPage.swift in Sources */,
+				63B144082DDDD37B00D726C3 /* ThemeManager.swift in Sources */,
+				63469AF02DDAF14E00EE660D /* NotificationsDisabled.swift in Sources */,
+				63469AF12DDAF14E00EE660D /* HomePage.swift in Sources */,
+				63D340592DDD077900A598B4 /* Focus_BubbleApp.swift in Sources */,
+				63469AF22DDAF14E00EE660D /* MeditationView.swift in Sources */,
+				63469AF32DDAF14E00EE660D /* CircleButton.swift in Sources */,
+				63B143F42DDDA6AB00D726C3 /* CustomCalendarView.swift in Sources */,
+				63B143F52DDDA6AB00D726C3 /* AddReminder.swift in Sources */,
+				63B1440C2DDDDDF300D726C3 /* UIStyles.swift in Sources */,
+				63B143F62DDDA6AB00D726C3 /* CalendarManager.swift in Sources */,
+				63B36D3C2DDDEB6D00A7CDCA /* CalmVideoPlayer.swift in Sources */,
+				63469AF42DDAF14E00EE660D /* PomodoroNotification.swift in Sources */,
+				63469AF52DDAF14E00EE660D /* SoundManager.swift in Sources */,
+				63469AF82DDAF14E00EE660D /* YogaView.swift in Sources */,
+				63B1440E2DDDE0AE00D726C3 /* View+Background.swift .swift in Sources */,
+				63469AF92DDAF14E00EE660D /* PomodoroTimer.swift in Sources */,
+				63469AFA2DDAF14E00EE660D /* PomodoroView.swift in Sources */,
+				63B143F82DDDAF7700D726C3 /* EventModel.swift in Sources */,
+				63B144002DDDB75200D726C3 /* settingDeatailView.swift in Sources */,
+				63469AFB2DDAF14E00EE660D /* NewGentleSoundView.swift in Sources */,
+				63B144022DDDB96600D726C3 /* HelpView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		63469A402DDAEC8700EE660D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YL6MP834U3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63469A412DDAEC8700EE660D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YL6MP834U3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		63469A432DDAEC8700EE660D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YL6MP834U3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/FocusBubble/Calendar/GoogleAPIClientForREST/Source";
+				INFOPLIST_FILE = FocusBubble/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Focus Bubble";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayanshir.FocusBubbleNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jayu/FocusBubbleNew/FocusBubble/Calendar/FocusBubble-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		63469A442DDAEC8700EE660D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YL6MP834U3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/FocusBubble/Calendar/GoogleAPIClientForREST/Source";
+				INFOPLIST_FILE = FocusBubble/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Focus Bubble";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayanshir.FocusBubbleNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jayu/FocusBubbleNew/FocusBubble/Calendar/FocusBubble-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63469A312DDAEC8500EE660D /* Build configuration list for PBXProject "FocusBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63469A402DDAEC8700EE660D /* Debug */,
+				63469A412DDAEC8700EE660D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63469A422DDAEC8700EE660D /* Build configuration list for PBXNativeTarget "FocusBubble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63469A432DDAEC8700EE660D /* Debug */,
+				63469A442DDAEC8700EE660D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63469A2E2DDAEC8500EE660D /* Project object */;
+}
